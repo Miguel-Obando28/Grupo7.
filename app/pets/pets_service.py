@@ -1,4 +1,5 @@
 from uuid import uuid4
+from sqlalchemy.orm import Session
 
 from fastapi import HTTPException, status
 

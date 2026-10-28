@@ -1,6 +1,6 @@
 import os
 from logging.config import fileConfig
-
+from app.pets.pets_model import PetModel
 from dotenv import load_dotenv
 
 from alembic import context
