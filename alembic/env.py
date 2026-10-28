@@ -1,12 +1,11 @@
 import os
 from logging.config import fileConfig
+from app.shared.database import Base
 
 from dotenv import load_dotenv
 
 from alembic import context
-from app.shared.database import (
-    Base,
-)  # Subimos el import arriba para evitar la advertencia
+from app.students.students_model import Student
 
 load_dotenv()
 
